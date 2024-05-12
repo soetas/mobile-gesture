@@ -1,12 +1,10 @@
-class Tap extends Touch {}
+import TapEvent from './tap'
 
-class Swipe extends Touch {}
 
-class Hold extends Touch {}
+const tapEvent = new TapEvent()
 
-class Pinch extends Touch {}
 
-class Rotate extends Touch {}
+document.addEventListener('touchstart', ev=>{
+  ev.target?.dispatchEvent(tapEvent)
 
-class Finger extends Touch {}
-
+})
