@@ -1,7 +1,8 @@
 {
   "name": "play",
   "scripts": {
-    "dev": "vite ."
+    "dev": "vite .",
+    "serve":"DEBUG=* nodemon server/app.ts"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
