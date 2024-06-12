@@ -1,9 +1,11 @@
 {
   "name": "play",
   "scripts": {
-    "dev":"vite ."
+    "dev": "vite ."
   },
   "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5",
     "vite": "^5.2.11"
   }
 }

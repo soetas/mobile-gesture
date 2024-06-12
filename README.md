@@ -27,6 +27,8 @@ const screenWidth = screen.width
 const layoutWidth = document.documentElement.clientWidth
 const visualWidth = window.innerWidth
 
+const emoji = '\u{1F603}'
+
 ```
 
 ## gesture
