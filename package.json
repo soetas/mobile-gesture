@@ -1,9 +1,32 @@
 {
+	"name": "",
+	"version": "0.0.1",
+	"author": "<soetas, 3228891558@qq.com>",
+	"keywords": "",
+	"description": "",
+	"main": "",
+	"module":"",
+	"private": true,
+	"scripts": {
+		"start": "echo \"start ...\"",
+		"test": "",
+		"build": ""
+	},
+	"repository": {},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	},
 	"devDependencies": {
 		"eslint": "^9.2.0",
 		"husky": "^9.0.11",
 		"prettier": "^3.2.5",
 		"rollup": "^4.17.2",
 		"typescript": "^5.4.5"
-	}
+	},
+	"engines":{
+		"node":"",
+		"npm":"",
+		"os":[]
+	},
+	"license": "MIT"
 }

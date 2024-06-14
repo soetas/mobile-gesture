@@ -1,5 +1,7 @@
 import { cpus, totalmem, freemem } from 'node:os'
 import { createServer } from 'node:http'
+import history from 'connect-history-api-fallback'
+import { createProxyMiddleware } from 'http-proxy-middleware'
 
 // libuv 
 class Bottle {
@@ -16,7 +18,5 @@ class Bottle {
 
 
 const app = new Bottle()
-
-
 
 app.listenAndServe('0.0.0.0:8080')

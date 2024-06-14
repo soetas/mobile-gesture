@@ -45,3 +45,40 @@ const emoji = '\u{1F603}'
 ## face
 
 ## fingerprint
+
+## deploy
+
+```txt
+location / {
+  try_files $uri $uri/ /index.html;
+}
+
+location /dev/ {
+  proxy_pass https://localhost:8080/;
+}
+
+```
+
+```sh
+npm config get registry
+
+npm link
+
+```
+
+## Git
+
+```sh
+git config --list [--local]
+
+git log --pretty=oneline
+git log --oneline
+git log --graph
+git reflog -n 
+git log --oneline --graph
+
+git reset --hard <hash>
+git reset --sort <hash>
+git reset --mixed <hash>
+
+```
