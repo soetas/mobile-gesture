@@ -2,7 +2,7 @@
 	"name": "",
 	"version": "0.0.1",
 	"author": "<soetas, 3228891558@qq.com>",
-	"keywords": "",
+	"keywords": [],
 	"description": "",
 	"main": "",
 	"module":"",
@@ -12,7 +12,11 @@
 		"test": "",
 		"build": ""
 	},
-	"repository": {},
+	"homepage":"",	
+	"repository": {
+		"type":"git",
+		"url":""
+	},
 	"dependencies": {
 		"lodash": "^4.17.21"
 	},

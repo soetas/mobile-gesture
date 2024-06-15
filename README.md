@@ -59,10 +59,23 @@ location /dev/ {
 
 ```
 
+[semver规范](https://nodejs.cn/npm/cli/v6/using-npm/semver)
+
 ```sh
 npm config get registry
+npm config list
 
 npm link
+npm rebuild
+npm cache clean
+
+npm login
+npm publish
+npm unpublish
+npm deprecate
+
+yarn upgrade
+yarn install --force
 
 ```
 
@@ -82,3 +95,20 @@ git reset --sort <hash>
 git reset --mixed <hash>
 
 ```
+
+## ORM
+
+```sh
+sequelize init
+
+pm2 init
+
+```
+
+## Swagger
+
+[OpenAPI](https://swagger.io/specification/)
+
+[Swagger Editor](https://editor-next.swagger.io/)
+
+[Swagger UI](https://petstore.swagger.io/?_gl=1*1842hwd*_gcl_au*MTMzNjA0NDA4My4xNzE4NDQxMTc3&_ga=2.140595954.1979085870.1718441177-866837602.1718441177#/)
