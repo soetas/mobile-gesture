@@ -1,23 +1,22 @@
 {
-	"name": "",
+	"name": "gestejs",
 	"version": "0.0.1",
 	"author": "<soetas, 3228891558@qq.com>",
-	"keywords": [],
-	"'type":"module",
+	"keywords": ["touch", "finger", "gesture", "pan", "tap"],
+	"type":"module",
 	"description": "",
 	"main": "",
 	"module": "",
 	"unpkg":"",
-	"private": true,
 	"scripts": {
-		"start": "echo \"start ...\"",
+		"start": "",
 		"test": "",
 		"build": ""
 	},
-	"homepage": "",
+	"homepage": "https://github.com/yaxingson/gestejs",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/yaxingson/gestejs"
 	},
 	"dependencies": {
 		"lodash": "^4.17.21"
